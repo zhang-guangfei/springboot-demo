@@ -11,17 +11,6 @@
     <groupId>com.neo</groupId>
     <artifactId>model</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-
-    <name>model</name>
-    <description>Demo project for Spring Boot</description>
-    <packaging>jar</packaging>
-
-
-    <dependencies>
-        <dependency>
-            <groupId>org.projectlombok</groupId>
-            <artifactId>lombok</artifactId>
-            <optional>true</optional>
-        </dependency>
-    </dependencies>
+    <packaging>pom</packaging>
+    
 </project>
