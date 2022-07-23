@@ -1,13 +1,13 @@
-package com.neo.mbg;
+package com.neo;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class MbgApplication {
+public class CoreApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(MbgApplication.class, args);
+        SpringApplication.run(CoreApplication.class, args);
     }
 
 }

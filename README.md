@@ -37,3 +37,5 @@ springboot 2.6.10
 - 自定义DTO
 - 
 
+## API
+swagger: http://localhost:8080/swagger-ui/index.html

@@ -8,15 +8,28 @@
         <version>0.0.1-SNAPSHOT</version>
     </parent>
     <groupId>com.neo</groupId>
-    <artifactId>service</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
-
+    <artifactId>core</artifactId>
     <dependencies>
         <dependency>
             <groupId>com.neo</groupId>
-            <artifactId>model</artifactId>
+            <artifactId>mbg</artifactId>
             <version>0.0.1-SNAPSHOT</version>
         </dependency>
+        <dependency>
+            <groupId>com.neo</groupId>
+            <artifactId>dao</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
+        </dependency>
+
     </dependencies>
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-maven-plugin</artifactId>
+            </plugin>
+        </plugins>
+    </build>
 
 </project>
